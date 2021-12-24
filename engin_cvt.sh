@@ -20,3 +20,5 @@ sudo ./yolov5 -s best.wts best.engine s
 
 cp best.engine /home/nano/workspace/models/traffic-light-det/
 cp libmyplugins.so /home/nano/workspace/models/traffic-light-det/
+cp best.engine ${dirname}
+cp libmyplugins.so ${dirname}
