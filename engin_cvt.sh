@@ -16,7 +16,7 @@ cp ./yolov5/best.wts ./tensorrtx/yolov5/build
 # For example yolov5s
 cd ${dirname}
 cd ./tensorrtx/yolov5/build
-#sudo ./yolov5 -s best.wts best.engine s
+sudo ./yolov5 -s best.wts best.engine s
 
 cp best.engine /home/nano/workspace/models/traffic-light-det/
 cp libmyplugins.so /home/nano/workspace/models/traffic-light-det/
